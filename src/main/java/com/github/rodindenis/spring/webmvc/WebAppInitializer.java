@@ -24,6 +24,6 @@ public class WebAppInitializer implements WebApplicationInitializer {
         registration.setLoadOnStartup(1);
         registration.addMapping("/app/*");
 
-        log.info("WebApplicationInitializer done");
+        log.info("WebApplicationInitializer init done");
     }
 }
